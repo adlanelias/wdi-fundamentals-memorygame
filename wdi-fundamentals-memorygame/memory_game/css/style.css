@@ -1,92 +1,118 @@
 body {
-text-align: center;;
-}
-h1 {
-	font-family: "Raleway";
-	color: #0D2C40;
-	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 45px;
-	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
 	margin: 0;
 }
-h2 {
-	font-family: "Raleway";
-	color: #F15B31;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 18px;
+
+h1 {
+	font-family: Raleway;
+	letter-spacing: 5px;
+	font-weight: 400;
+	font-size: 45px;
+	margin: 0;
 	text-transform: uppercase;
 }
-h3 {
-	font-family: "Raleway";
+
+a {
+	font-family: Raleway;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+	text-transform: uppercase;
+}
+
+a:hover {
+	border-color: white;
+}
+
+h2 {
+	font-family: Raleway;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
 	text-transform: uppercase;
 }
+
 p {
-	font-family: "Droid Serif";
-	line-height: 26px;
-	font-size: 18px; 
-	text-transform: none;
+	font-family: Raleway, "Droid Serif";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 20px;
 }
+
+img {
+	margin: 40px 8px;
+}
+
+button {
+	background-color: #F4AA42;
+	border-radius: 33px;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
 header {
-	background-color: #F15B31;
+	background-color: #F4AA42;
 	color: #FFFFFF;
 	padding: 30px 20px;
 }
-body {
-	margin: 0;
-}
+
 nav {
 	background-color: #00A6B3;
 	color: #FFFFFF;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
-a {
-	margin: 0px 20px;
-	border-bottom: 2px solid transparent;
-}
+
 main {
 	width: 850px;
 	margin: 35px auto;
 }
-img {
-	margin: 40px 8px 0px;
-}
+
 footer {
 	text-transform: uppercase;
-	padding: 0px 20px;
-	background-color: #0D2C40;
+	padding: 0 20px;
+	background-color: #00A6B3;
 	color: white;
 	font-size: 14px;
-	letter-spacing: .08em;
+	letter-spacing: 0.8em;
 	font-weight: 500;
 }
+
 .copyright {
-	font-family: "Raleway";
 	float: left;
-	text-transform: uppercase;
+	font-family: Raleway;
+	font-weight: 400;
+	color: white;
 }
+
 .message {
-	font-family: "Raleway";
 	float: right;
-	text-transform: uppercase;
+	font-family: Raleway;
+	font-weight: 400;
+	color:white;
 }
+
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
+
 .name {
-	color: #F15B31;
-	font-weight: 700px;
+	color: white;
+	font-weight: 700;
 }
-a:hover {
-	border-color: white;
+
+.heart {
+	color: #FF0000;
+	font-weight: 700;
 }
